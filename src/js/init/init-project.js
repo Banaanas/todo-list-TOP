@@ -33,7 +33,7 @@ const initProject = () => {
     "Send applications",
     "2025-01-08",
     "high",
-    "Sending application to societies I would like to work at.",
+    "Sending application to companies I would like to work at.",
     true,
     true,
   );
