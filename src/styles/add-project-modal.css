@@ -1,0 +1,102 @@
+/* The Modal (background) */
+#add-project-modal {
+  position: fixed; /* Stay in place */
+  top: 0;
+  left: 0;
+  z-index: 1; /* Sit on top */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  transition: 5s;
+}
+
+#add-project-modal-content {
+  width: 80%;
+  height: auto;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 2rem;
+  padding-bottom: 4rem;
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 2rem;
+  background-color: var(--primary-text-color);
+  border: 1px solid var(--primary-light-color);
+  border-radius: 20px;
+}
+
+@media (min-width: 800px) {
+  #add-project-modal-content {
+    width: 50%;
+  }
+}
+
+/* The Close Button */
+#close-project-modal {
+  float: right;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  color: var(--primary-light-color);
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#close-project-modal:hover,
+#close-project-modal:focus {
+  color: var(--primary-dark-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#project-modal-content-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+}
+
+#project-modal-title {
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#project-modal-form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: var(--primary-light-color);
+  border-radius: 20px;
+}
+
+#alert-message-project {
+  position: absolute;
+  top: 10%;
+  width: 75%;
+  padding: 2rem;
+  color: var(--primary-text-color);
+  text-align: center;
+  background-color: var(--primary-dark-color);
+  border: solid 2px var(--primary-light-color);
+  border-radius: 15px;
+}
+
+#add-project-button-container {
+  align-self: flex-end;
+  padding-top: 2rem;
+}
+
+#add-project-button {
+  color: var(--primary-light-color);
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: var(--primary-text-color);
+  border-radius: 3px;
+}
