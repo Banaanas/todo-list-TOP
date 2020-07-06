@@ -1,4 +1,3 @@
-import addProjectActiveClass from "./add-project-active-class";
 import {
   CreateProject,
   projectsArray,
@@ -71,7 +70,6 @@ const addProjectToArray = () => {
   const projectNameInput = document.querySelector("#project-name-input");
   projectNameInput.value = "";
 
-  addProjectActiveClass();
   setLocalStorage(projectsArray);
 };
 

@@ -1,6 +1,7 @@
 import deleteIcon from "../../../images/delete-icon.svg";
 import projectsIcon from "../../../images/projects-icon.svg";
 import { projectsArray } from "../../transversal-functions/projects-factory";
+import addProjectActiveClass from "./add-project-active-class";
 
 // Display the new added Project with all the others to the DOM
 const addProjectToDom = () => {
@@ -25,6 +26,7 @@ const addProjectToDom = () => {
             `,
     );
   });
+  addProjectActiveClass();
 };
 
 export default addProjectToDom;

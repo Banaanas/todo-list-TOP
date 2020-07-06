@@ -23,7 +23,7 @@ const addProjectActiveClass = () => {
     );
   }
 
-  // Add Active Class
+  // Add Active Class to new created Project
   const allProjectDisplayed = document.querySelectorAll(
     ".projects-list-project-name",
   );
