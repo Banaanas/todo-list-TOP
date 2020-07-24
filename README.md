@@ -67,17 +67,14 @@ One important
 
 #### Principal Features
 - Add / Delete / Modify Todo ;
-- Set name, due date, priority and description for each Todo ;
-- Modify name, priority, due date, status for each Todo ;
-- Change Todo status : completed / not completed ;
-- Display Todo description ;
-
+- Set Todo's name, due date, priority and description ;
+- Modify Todo's name, priority, due date, status ;
+- Change Todo's status : completed / not completed ;
+- Display Todo's description ;
 - Bookmark Todo ;
 - Modify Todo ;
-
 - Sort Todo List (by name, due date, creation date ) ;
-- Search item through all Todo Projects
-
+- Search one specific Todo through all Todo Projects
 - Great User Interface ;
 - Responsive design.
 
