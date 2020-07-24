@@ -31,7 +31,7 @@
     </a>
 </p>
 
-<h1 align="center">:bulb: Todo Lisst :pencil:</h1>
+<h1 align="center">:bulb: Todo List :pencil:</h1>
 
 <p align="center">
     Nice and funny BattleShip Game.<br/><br/>
