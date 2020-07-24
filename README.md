@@ -26,12 +26,12 @@
 <!-- PROJECT LOGO -->
 <br/>
 <p align="center">
-    <a href="https://github.com/Banaanas/battleship-TOP">
+    <a href="https://banaanas.github.io/todo-list-TOP/">
         <img src="./src/images/README/project-logo.svg" alt="Project's Logo" width="80" height="80">
     </a>
 </p>
 
-<h1 align="center">:medal_military: Battleship :bomb:</h1>
+<h1 align="center">:bulb: Battleship :pencil:</h1>
 
 <p align="center">
     Nice and funny BattleShip Game.<br/><br/>
