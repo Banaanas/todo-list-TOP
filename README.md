@@ -31,10 +31,10 @@
     </a>
 </p>
 
-<h1 align="center">:bulb: Todo List :pencil:</h1>
+<h1 align="center">:bulb: Todo List App :pencil:</h1>
 
 <p align="center">
-    Nice and funny BattleShip Game.<br/><br/>
+    Elegant, practical and funny BattleShip Game.<br/><br/>
     <a href="https://banaanas.github.io/todo-list-TOP/">:computer: Live Demo :eyes:</a><br/><br/>
 </p>
 
