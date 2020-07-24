@@ -72,9 +72,10 @@ One important
 - Change Todo's status : completed / not completed ;
 - Display Todo's description ;
 - Bookmark Todo ;
-- Modify Todo ;
+- All Bookmarked Todo List ;
+- All Todo List ;
 - Sort Todo List (by name, due date, creation date ) ;
-- Search one specific Todo through all Todo Projects
+- Search Todo functionality ;
 - Great User Interface ;
 - Responsive design.
 
