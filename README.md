@@ -55,7 +55,7 @@
 <!-- TABLE OF CONTENTS -->
 
 ## About the Project
-Battleship Game achieved as part of <a href="https://www.theodinproject.com/courses/javascript/lessons/battleship">The Odin Project - JavaScript curriculum</a>.
+Todo List App achieved as part of <a href="https://www.theodinproject.com/lessons/todo-list">The Odin Project - JavaScript curriculum</a>.
 One important 
 
 <p align="center">
@@ -66,14 +66,23 @@ One important
 
 
 #### Principal Features
-- Human Player vs. Computer Player ;
-- Manual ship placement (Human Player) ;
-- Random ship placement (Computer Player) ;
+- Add / Delete / Modify Todo ;
+- Set name, due date, priority and description for each Todo ;
+- Modify name, priority, due date, status for each Todo ;
+- Change Todo status : completed / not completed ;
+- Display Todo description ;
+
+- Bookmark Todo ;
+- Modify Todo ;
+
+- Sort Todo List (by name, due date, creation date ) ;
+- Search item through all Todo Projects
+
 - Great User Interface ;
 - Responsive design.
 
 <p align="center">
-  <a href="https://banaanas.github.io/my-weather-app/">
+  <a href="https://banaanas.github.io/todo-list-TOP/">
     <img src="src/images/README/screenshot-2.png" alt="Screenshot" width="281" height="500">
   </a>
 </p>
@@ -82,9 +91,9 @@ One important
 
 - [Vanilla JavaScript](http://vanilla-js.com/)
 
-ES6 - Factory Functions - Random Ship Placement algorithm - Async / Await
+ES6 - Factory Functions
+LocalStorage API
 
-Test-Driven Development (TDD) - Jest
 - [HTML5](https://www.w3.org/html/)
 - [CSS3](https://www.w3.org/Style/CSS/Overview.html)
 
