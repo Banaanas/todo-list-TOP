@@ -90,9 +90,7 @@ One important
 
 - [Vanilla JavaScript](http://vanilla-js.com/)
 
-ES6 - Factory Functions<br>
-LocalStorage API<br>
-Single Responsibility Principle 
+ES6 - Factory Functions - LocalStorage API - Single Responsibility Principle 
 
 - [HTML5](https://www.w3.org/html/)
 - [CSS3](https://www.w3.org/Style/CSS/Overview.html)
