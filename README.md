@@ -34,7 +34,7 @@
 <h1 align="center">:bulb: Todo List App :pencil:</h1>
 
 <p align="center">
-    Elegant, practical and funny BattleShip Game.<br/><br/>
+    Practical, elegant and advanced Todo List Application.<br/><br/>
     <a href="https://banaanas.github.io/todo-list-TOP/">:computer: Live Demo :eyes:</a><br/><br/>
 </p>
 
@@ -59,7 +59,7 @@ Battleship Game achieved as part of <a href="https://www.theodinproject.com/cour
 One important 
 
 <p align="center">
-  <a href="https://banaanas.github.io/my-weather-app/">
+  <a href="https://www.theodinproject.com/lessons/todo-list">
     <img src="src/images/README/screenshot-1.png" alt="Screenshot" width="455" height="300">
   </a>
 </p>
