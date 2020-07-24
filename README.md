@@ -66,10 +66,11 @@ One important
 
 
 #### Principal Features
-- Add / Delete / Modify Todo ;
+- Add / Delete Todo ;
+- Add / Delete Project ;
 - Set Todo's name, due date, priority and description ;
 - Modify Todo's name, priority, due date, status ;
-- Change Todo's status : completed / not completed ;
+- Modify Todo's status : completed / not completed ;
 - Display Todo's description ;
 - Bookmark Todo ;
 - All Bookmarked Todo List ;
@@ -91,18 +92,19 @@ One important
 
 ES6 - Factory Functions
 LocalStorage API
+Single Responsibility Principle 
 
 - [HTML5](https://www.w3.org/html/)
 - [CSS3](https://www.w3.org/Style/CSS/Overview.html)
 
 Grid - Flexbox - Media Queries
 
-- [Jest](https://jestjs.io/)
 - [Webpack](https://webpack.js.org/)
 - [Babel](https://babeljs.io/)
 - [core-js](https://github.com/zloirock/core-js)
 - [ESLint](https://eslint.org/)
 - [stylelint](https://stylelint.io/)
+- [flatpickr](https://flatpickr.js.org/)
 
 
 <!-- GETTING STARTED -->
