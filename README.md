@@ -81,10 +81,10 @@ Todo List App achieved as part of <a href="https://www.theodinproject.com/lesson
 
 <p align="center">
   <a href="https://banaanas.github.io/todo-list-TOP/">
-    <img src="src/images/README/screenshot-3.png" alt="Screenshot" width="280" height="500">
+    <img src="src/images/README/screenshot-2.png" alt="Screenshot" width="280" height="500">
   </a>
   <a href="https://banaanas.github.io/todo-list-TOP/">
-    <img src="src/images/README/screenshot-2.png" alt="Screenshot" width="280" height="500">
+    <img src="src/images/README/screenshot-3.png" alt="Screenshot" width="280" height="500">
   </a>
 </p>
 
