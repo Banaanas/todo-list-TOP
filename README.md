@@ -55,7 +55,7 @@
 <!-- TABLE OF CONTENTS -->
 
 ## About the Project
-Todo List App achieved as part of <a href="https://www.theodinproject.com/lessons/todo-list">The Odin Project - JavaScript curriculum</a>.
+Todo List App achieved as part of <a href="https://www.theodinproject.com/">The Odin Project - JavaScript curriculum</a>.
 
 <p align="center">
   <a href="https://www.theodinproject.com/lessons/todo-list">
