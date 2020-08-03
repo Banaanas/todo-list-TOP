@@ -58,7 +58,7 @@
 Todo List App achieved as part of <a href="https://www.theodinproject.com/">The Odin Project - JavaScript Curriculum</a>.
 
 <p align="center">
-  <a href="https://www.theodinproject.com/lessons/todo-list">
+  <a href="https://banaanas.github.io/todo-list-TOP/">
     <img src="src/images/README/animated-gif-1.gif" alt="Animated Gif" width="455" height="370">
   </a>
 </p>
@@ -74,7 +74,7 @@ Todo List App achieved as part of <a href="https://www.theodinproject.com/">The 
 - Bookmark Todo ;
 - All Bookmarked Todo List ;
 - All Todo List ;
-- Sort Todo List (by name, due date, creation date ) ;
+- Sort Todo List (by name, due date, creation date) ;
 - Search Todo functionality ;
 - Great User Interface ;
 - Responsive design.
