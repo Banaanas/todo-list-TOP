@@ -77,7 +77,7 @@ Todo List App achieved as part of <a href="https://www.theodinproject.com/">The 
 - Sort Todo List (by name, due date, creation date) ;
 - Search Todo functionality ;
 - Great User Interface ;
-- Responsive design.
+- Responsive Design.
 
 <p align="center">
   <a href="https://banaanas.github.io/todo-list-TOP/">
