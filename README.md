@@ -81,7 +81,7 @@ Todo List App achieved as part of <a href="https://www.theodinproject.com/">The 
 
 <p align="center">
   <a href="https://banaanas.github.io/todo-list-TOP/">
-    <img src="src/images/README/animated-gif-2.gif" alt="Animated Gif" width="280" height="500">
+    <img src="src/images/README/animated-gif-2.gif" alt="Animated Gif" width="280" height="400">
   </a>
 </p>
 
