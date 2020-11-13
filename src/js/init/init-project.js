@@ -43,7 +43,7 @@ const initProject = () => {
     "Talk to the Boss",
     "2025-05-01",
     "low",
-    "Explain to the Boss that I want to find another job",
+    "Explain to the Boss that I want to find another job.",
     false,
     false,
   );
