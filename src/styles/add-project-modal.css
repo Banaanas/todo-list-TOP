@@ -14,22 +14,17 @@
 }
 
 #add-project-modal-content {
-  width: 80%;
+  min-width: 360px;
+  max-width: 30rem;
   height: auto;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 25% auto; /* 15% from the top and centered */
   padding: 2rem 2rem 4rem;
   color: var(--primary-text-color);
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1rem;
   background-color: var(--primary-text-color);
   border: 1px solid var(--primary-light-color);
   border-radius: 20px;
-}
-
-@media (min-width: 800px) {
-  #add-project-modal-content {
-    width: 50%;
-  }
 }
 
 /* The Close Button */
@@ -39,7 +34,7 @@
   margin-bottom: 20px;
   color: var(--primary-light-color);
   font-weight: bold;
-  font-size: 28px;
+  font-size: 2rem;
 }
 
 #close-project-modal:hover,
@@ -56,14 +51,13 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  height: auto;
   color: var(--primary-text-color);
   text-transform: uppercase;
 }
 
 #project-modal-title {
   width: 100%;
-  font-size: 3rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 

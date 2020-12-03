@@ -30,7 +30,7 @@ const initProject = () => {
   const itemA1 = CreateItem(
     0,
     0,
-    "Send applications",
+    "Send applications - 📫",
     "2025-01-08",
     "high",
     "Sending application to companies I would like to work at.",
@@ -40,7 +40,7 @@ const initProject = () => {
   const itemA2 = CreateItem(
     1,
     0,
-    "Talk to the Boss",
+    "Talk to the Boss - 🗣️",
     "2025-05-01",
     "low",
     "Explain to the Boss that I want to find another job.",
@@ -50,7 +50,7 @@ const initProject = () => {
   const itemA3 = CreateItem(
     2,
     0,
-    "Improve skills",
+    "Improve skills - 🤹🏽",
     "2025-09-15",
     "medium",
     "Improving skills to get a wage rise.",
@@ -60,7 +60,7 @@ const initProject = () => {
   const itemA4 = CreateItem(
     3,
     0,
-    "Organize a party &#128540",
+    "Organize a party - 🎉",
     "2025-12-24",
     "high",
     "Christmas at Office",
@@ -71,7 +71,7 @@ const initProject = () => {
   const itemB1 = CreateItem(
     0,
     1,
-    "Work-Out &#128526",
+    "Work-Out - 💪🏽",
     "2025-02-10",
     "medium",
     "Good for health!",
@@ -81,7 +81,7 @@ const initProject = () => {
   const itemB2 = CreateItem(
     1,
     1,
-    "Meditate &#129323",
+    "Meditate - 🧘🏽",
     "2025-02-10",
     "high",
     "Good for soul!",
@@ -91,7 +91,7 @@ const initProject = () => {
   const itemB3 = CreateItem(
     2,
     1,
-    "Work &#128527",
+    "Work - 🖥️",
     "2025-02-10",
     "medium",
     "Good for money!",
@@ -101,7 +101,7 @@ const initProject = () => {
   const itemB4 = CreateItem(
     3,
     1,
-    "Sleep &#128564",
+    "Sleep - 💤",
     "2025-02-10",
     "low",
     "Good for skin!",

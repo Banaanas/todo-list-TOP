@@ -16,9 +16,12 @@ const addProject = () => {
   projectModalForm.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    addProjectToArray();
-    addProjectToDom();
+    // If Project is not Valid, Return
+    const isProjectValid = addProjectToArray();
+    if (isProjectValid !== true) return;
 
+    // If Project is Valid
+    addProjectToDom();
     renderListName(projectsArray[projectsArray.length - 1].name);
     renderListItems(projectsArray[projectsArray.length - 1].itemsArray);
     renderAddItemButton(projectsArray[projectsArray.length - 1].id);

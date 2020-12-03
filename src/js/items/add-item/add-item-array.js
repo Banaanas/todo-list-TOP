@@ -14,9 +14,9 @@ const addItemToArray = (IDProject, itemsArray) => {
      If Item's Name is an empty string or if no date and priority or have been set
      */
   if (
-    getItemNameValue.length < 1
-    || getItemPriority === null
-    || getItemDueDate.value === ""
+    getItemNameValue.length < 1 ||
+    getItemPriority === null ||
+    getItemDueDate.value === ""
   ) {
     const itemModalContainer = document.querySelector(
       "#item-modal-content-container",
@@ -37,9 +37,9 @@ const addItemToArray = (IDProject, itemsArray) => {
     let alertMessageText;
 
     if (
-      getItemNameValue.length < 1
-      && getItemPriority === null
-      && getItemDueDate.value === ""
+      getItemNameValue.length < 1 &&
+      getItemPriority === null &&
+      getItemDueDate.value === ""
     ) {
       alertMessageText = document.createTextNode(
         "Please, choose a Name, a Date and a Priority for your Item.",

@@ -24,16 +24,16 @@ const addProjectToArray = () => {
     const projectModalForm = document.querySelector("#project-modal-form");
 
     // Removes precedent Alert Message Item if there is one
-    const precedentAlertMessageItem = document.querySelector(
+    const precedentAlertMessageProject = document.querySelector(
       "#alert-message-project",
     );
-    if (precedentAlertMessageItem !== null) {
-      precedentAlertMessageItem.remove();
+    if (precedentAlertMessageProject !== null) {
+      precedentAlertMessageProject.remove();
     }
 
     // Create Alert Message Item and append it to the DOM
-    const alertMessageItem = document.createElement("div");
-    alertMessageItem.setAttribute("id", "alert-message-project");
+    const alertMessageProject = document.createElement("div");
+    alertMessageProject.setAttribute("id", "alert-message-project");
 
     let alertMessageText;
     if (projectNameInputValue.length < 1) {
@@ -46,15 +46,15 @@ const addProjectToArray = () => {
       );
     }
 
-    alertMessageItem.appendChild(alertMessageText);
-    projectModalContainer.insertBefore(alertMessageItem, projectModalForm);
+    alertMessageProject.appendChild(alertMessageText);
+    projectModalContainer.insertBefore(alertMessageProject, projectModalForm);
 
     // Remove Alert Item Message after 2 seconds
     setTimeout(() => {
-      alertMessageItem.remove();
+      alertMessageProject.remove();
     }, 2000);
 
-    return;
+    return false;
   }
 
   // Creates new Project object
@@ -71,6 +71,7 @@ const addProjectToArray = () => {
   projectNameInput.value = "";
 
   setLocalStorage(projectsArray);
+  return true;
 };
 
 export default addProjectToArray;

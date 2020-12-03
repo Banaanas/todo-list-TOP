@@ -14,6 +14,7 @@
 
 #add-item-modal-content {
   width: 90%;
+  max-width: 40rem;
   height: auto;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 1rem;
@@ -24,12 +25,6 @@
   background-color: var(--primary-text-color);
   border: 1px solid var(--primary-light-color);
   border-radius: 20px;
-}
-
-@media (min-width: 800px) {
-  #add-item-modal-content {
-    width: 50%;
-  }
 }
 
 /* The Close Button */
@@ -91,6 +86,10 @@
 }
 
 #item-date-input {
+}
+
+.flatpickr-input,
+.flatpickr-mobile {
   align-self: center;
   text-align: center;
 }
@@ -109,7 +108,7 @@ input[type="radio"]:checked + label {
 /* All Priority Labels */
 #container-all-priorities > label {
   margin: 0.2rem;
-  padding: .4rem;
+  padding: 0.4rem;
   border: solid 2px var(--primary-dark-color);
   border-radius: 10px;
 }
@@ -151,7 +150,7 @@ input[type="radio"] {
 
 #alert-message-item {
   position: absolute;
-  bottom: 30%;
+  top: 50%;
   width: 75%;
   padding: 1rem;
   color: var(--primary-text-color);
