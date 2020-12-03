@@ -153,7 +153,7 @@ Distributed under the MIT License. See <a href="./LICENSE">`LICENSE`</a> for mor
 
 ## Contact
 
-Cyrilo - [Personal Website](https://yetToCome) - cyrildeveloppeur@gmail.com
+Cyrilo - [Personal Website](https://cyrilo.dev) - [Mail](mailto:cyrilo.dev@gmail.com)
 
 Project Link: [https://github.com/Banaanas/battleship-TOP](https://github.com/Banaanas/battleship-TOP)
 
