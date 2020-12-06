@@ -181,10 +181,9 @@
 
 #add-project-name {
   display: none;
-  width: 100%;
   overflow-x: hidden;
   font-weight: bolder;
-  text-align: center;
+  text-align: center !important;
 }
 
 @media (min-width: 600px) {
