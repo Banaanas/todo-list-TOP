@@ -31,7 +31,7 @@
     </a>
 </p>
 
-<h1 align="center">:bulb: Todo List App :pencil:</h1>
+<h1 align="center">💡 Todo List App 📝</h1>
 
 <p align="center">
     Practical, elegant and advanced Todo List Application.<br/><br/>
