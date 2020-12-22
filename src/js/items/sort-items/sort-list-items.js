@@ -15,8 +15,8 @@ const sortListItems = () => {
   // of it would "close" sortItemsDropdownContent again
   body.addEventListener("click", (event) => {
     if (
-      sortItemsDropdownContent.style.display === "flex"
-      && event.target.id !== "sort-items-project-icon"
+      sortItemsDropdownContent.style.display === "flex" &&
+      event.target.id !== "sort-items-project-icon"
     ) {
       sortItemsDropdownContent.style.display = "none";
     }

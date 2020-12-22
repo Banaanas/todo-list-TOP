@@ -10,7 +10,8 @@ const controllerBookmarkItem = (event) => {
   }
 
   // Get Project ID and Item ID from data-attribute
-  const projectID = event.target.parentNode.parentNode.parentNode.dataset.projectId;
+  const projectID =
+    event.target.parentNode.parentNode.parentNode.dataset.projectId;
   const itemID = event.target.parentNode.parentNode.parentNode.dataset.itemId;
 
   bookmarkItemArray(projectID, itemID);

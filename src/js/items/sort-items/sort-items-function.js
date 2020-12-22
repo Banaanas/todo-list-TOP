@@ -8,23 +8,27 @@ const sortItemsFunction = (listArray, typeOfSorting) => {
   sortedArray = listArray.slice();
 
   if (typeOfSorting === "name-sort") {
-    sortedArray = sortedArray.sort((a, b) => a.name.localeCompare(
-      b.name,
-      "fr",
-      { numeric: true },
-      { ignorePunctuation: true },
-    ));
+    sortedArray = sortedArray.sort((a, b) =>
+      a.name.localeCompare(
+        b.name,
+        "fr",
+        { numeric: true },
+        { ignorePunctuation: true },
+      ),
+    );
   } else if (typeOfSorting === "due-date-sort") {
     sortedArray = sortedArray.sort(
       (a, b) => new Date(a.dueDate) - new Date(b.dueDate),
     );
   } else if (typeOfSorting === "creation-date-sort") {
-    sortedArray = sortedArray.sort((a, b) => a.name.localeCompare(
-      b.name,
-      "fr",
-      { numeric: true },
-      { ignorePunctuation: true },
-    ));
+    sortedArray = sortedArray.sort((a, b) =>
+      a.name.localeCompare(
+        b.name,
+        "fr",
+        { numeric: true },
+        { ignorePunctuation: true },
+      ),
+    );
     sortedArray.sort((a, b) => a.itemID - b.itemID);
   }
 

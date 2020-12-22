@@ -3,8 +3,10 @@ import setLocalStorage from "../../transversal-functions/local-storage";
 
 // Delete Item from Project's Items Array
 const deleteItemArray = (eventDeleteButton) => {
-  const projectID = eventDeleteButton.target.parentNode.parentNode.parentNode.dataset.projectId;
-  const itemID = eventDeleteButton.target.parentNode.parentNode.parentNode.dataset.itemId;
+  const projectID =
+    eventDeleteButton.target.parentNode.parentNode.parentNode.dataset.projectId;
+  const itemID =
+    eventDeleteButton.target.parentNode.parentNode.parentNode.dataset.itemId;
 
   // Delete the Item's object from the Projects Array
   projectsArray[projectID].itemsArray.splice(itemID, 1);

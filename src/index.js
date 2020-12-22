@@ -41,7 +41,6 @@ allItemsIcon.src = allItemsIcnSrc;
 allBookmarkedItemsIcon.src = allBookmarkedItemsIcnSrc;
 addProjectModalIcon.src = addProjectModalIcnSrc;
 
-
 addProjectModal();
 addProject();
 deleteProject();

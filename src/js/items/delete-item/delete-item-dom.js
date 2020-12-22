@@ -1,6 +1,7 @@
 // Delete Items from List Items Display
 const deleteItemDOM = (eventDeleteButton) => {
-  const projectID = eventDeleteButton.target.parentNode.parentNode.parentNode.dataset.projectId;
+  const projectID =
+    eventDeleteButton.target.parentNode.parentNode.parentNode.dataset.projectId;
 
   // Remove the List Item Details (<li>) from the Displayed List
   eventDeleteButton.target.parentNode.parentNode.parentNode.remove();

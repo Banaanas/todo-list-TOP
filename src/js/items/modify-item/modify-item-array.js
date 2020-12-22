@@ -5,7 +5,8 @@ import setLocalStorage from "../../transversal-functions/local-storage";
 const modifyItemArray = () => {
   const modifiedProjectID = targetsObject.projectID;
   const modifiedItemID = targetsObject.itemID;
-  const modifiedItem = projectsArray[modifiedProjectID].itemsArray[modifiedItemID];
+  const modifiedItem =
+    projectsArray[modifiedProjectID].itemsArray[modifiedItemID];
   const getItemName = document.querySelector("#item-name-input");
   const getItemNameValue = document.querySelector("#item-name-input").value;
   const getItemDueDate = document.querySelector("#item-date-input");

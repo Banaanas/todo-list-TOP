@@ -15,7 +15,8 @@ const descriptionItemDOM = (eventDescription) => {
   const describedItem = eventDescription.target.closest(".item-details");
 
   // Set description text
-  const descriptionText = projectsArray[projectID].itemsArray[itemID].description;
+  const descriptionText =
+    projectsArray[projectID].itemsArray[itemID].description;
 
   if (descriptionText === "") {
     // If there is no description

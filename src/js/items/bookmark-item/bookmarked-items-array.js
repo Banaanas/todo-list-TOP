@@ -5,8 +5,8 @@ import setLocalStorage from "../../transversal-functions/local-storage";
 
 const bookmarkItemArray = (IDProject, IDItem) => {
   if (
-    projectsArray[IDProject].itemsArray[IDItem].bookmark === false
-    || projectsArray[IDProject].itemsArray[IDItem].bookmark === undefined
+    projectsArray[IDProject].itemsArray[IDItem].bookmark === false ||
+    projectsArray[IDProject].itemsArray[IDItem].bookmark === undefined
   ) {
     projectsArray[IDProject].itemsArray[IDItem].bookmark = true;
   } else {

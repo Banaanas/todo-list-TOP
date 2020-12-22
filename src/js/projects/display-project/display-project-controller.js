@@ -11,8 +11,8 @@ import sortListItems from "../../items/sort-items/sort-list-items";
 // Organize the Display Project Functionality
 const displayProjectListController = (event) => {
   if (
-    event.target.className !== "project-name-span"
-    && event.target.className !== "projects-icon"
+    event.target.className !== "project-name-span" &&
+    event.target.className !== "projects-icon"
   ) {
     return;
   }

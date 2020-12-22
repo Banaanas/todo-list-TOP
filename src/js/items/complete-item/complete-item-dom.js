@@ -6,7 +6,8 @@ import { projectsArray } from "../../transversal-functions/projects-factory";
 
 // Toggle Item's Unchecked / Incomplete Icons (from Item's object property)
 const completeItemDOM = (IDProject, IDItem, event) => {
-  const uncompletedIconPriority = event.target.parentNode.childNodes[1].childNodes[1];
+  const uncompletedIconPriority =
+    event.target.parentNode.childNodes[1].childNodes[1];
   const itemPriority = projectsArray[IDProject].itemsArray[IDItem].priority;
   const itemCompleted = projectsArray[IDProject].itemsArray[IDItem].complete;
 

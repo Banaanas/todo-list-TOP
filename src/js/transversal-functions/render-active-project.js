@@ -33,8 +33,8 @@ const toggleActiveProject = () => {
 
     // Add Active Class
     if (
-      event.target.className !== "project-name-span"
-      && event.target.className !== "projects-icon"
+      event.target.className !== "project-name-span" &&
+      event.target.className !== "projects-icon"
     ) {
       return;
     }

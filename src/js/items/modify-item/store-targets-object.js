@@ -13,16 +13,20 @@ const storeTargetsObject = () => {
       return;
     }
     // Get Project ID and Item ID from data-attribute
-    const projectID = event.target.parentNode.parentNode.parentNode.dataset.projectId;
+    const projectID =
+      event.target.parentNode.parentNode.parentNode.dataset.projectId;
     const itemID = event.target.parentNode.parentNode.parentNode.dataset.itemId;
 
     // eslint-disable-next-line max-len
-    const modifiedNameDOM = event.target.parentNode.parentNode.parentNode.childNodes[1].childNodes[5];
+    const modifiedNameDOM =
+      event.target.parentNode.parentNode.parentNode.childNodes[1].childNodes[5];
     // eslint-disable-next-line max-len
-    const modifiedDateDOM = event.target.parentNode.parentNode.parentNode.childNodes[3].childNodes[0];
+    const modifiedDateDOM =
+      event.target.parentNode.parentNode.parentNode.childNodes[3].childNodes[0];
     // eslint-disable-next-line max-len
-    const modifiedPriorityDOM = event.target.parentNode.parentNode.parentNode.childNodes[1].childNodes[1]
-      .childNodes[1];
+    const modifiedPriorityDOM =
+      event.target.parentNode.parentNode.parentNode.childNodes[1].childNodes[1]
+        .childNodes[1];
 
     // Store all the DOM links relative to the event in order to modify-item-dom in targetsObject
     targetsObject.projectID = projectID;

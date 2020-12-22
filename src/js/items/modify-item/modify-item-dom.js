@@ -9,7 +9,8 @@ import uncompletedHighPriorityItemIcon from "../../../images/uncompleted-high-pr
 const modifyItemDOM = () => {
   const modifiedProjectID = targetsObject.projectID;
   const modifiedItemID = targetsObject.itemID;
-  const modifiedItem = projectsArray[modifiedProjectID].itemsArray[modifiedItemID];
+  const modifiedItem =
+    projectsArray[modifiedProjectID].itemsArray[modifiedItemID];
   const {
     modifiedNameDOM,
     modifiedDueDateDOM,

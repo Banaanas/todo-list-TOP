@@ -27,7 +27,8 @@ const modifyItemModal = () => {
     modifyItemModalButton.innerHTML = "Confirm";
 
     // Get Project ID and Item ID from data-attribute
-    const projectID = event.target.parentNode.parentNode.parentNode.dataset.projectId;
+    const projectID =
+      event.target.parentNode.parentNode.parentNode.dataset.projectId;
     const itemID = event.target.parentNode.parentNode.parentNode.dataset.itemId;
 
     // Select item's inputs
@@ -46,7 +47,8 @@ const modifyItemModal = () => {
     // Display all the values of the Item clicked ID into the Modify Modal
     getItemName.value = projectsArray[projectID].itemsArray[itemID].name;
     getItemDueDate.value = projectsArray[projectID].itemsArray[itemID].dueDate;
-    getItemDescription.value = projectsArray[projectID].itemsArray[itemID].description;
+    getItemDescription.value =
+      projectsArray[projectID].itemsArray[itemID].description;
 
     // Check the radio button of the Item's Priority
     const itemPriority = projectsArray[projectID].itemsArray[itemID].priority;

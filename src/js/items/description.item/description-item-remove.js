@@ -6,11 +6,11 @@ const descriptionItemRemove = () => {
     if (itemDescription) {
       // Event Delegation
       if (
-        event.target.className === "item-description-icon"
-        || event.target.className === "item-details"
-        || event.target.className === "item-name-and-checkbox"
-        || event.target.className === "item-name"
-        || event.target.className === "item-due-date"
+        event.target.className === "item-description-icon" ||
+        event.target.className === "item-details" ||
+        event.target.className === "item-name-and-checkbox" ||
+        event.target.className === "item-name" ||
+        event.target.className === "item-due-date"
       ) {
         return;
       }
