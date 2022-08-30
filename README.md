@@ -93,12 +93,12 @@ Todo List App achieved as part of <a href="https://www.theodinproject.com/">The 
 
 #### Built With
 
-- [Vanilla JavaScript](http://vanilla-js.com/)
+- [JavaScript](http://vanilla-js.com/)
 
 ES6 - Factory Functions - LocalStorage API - Single Responsibility Principle 
 
-- [HTML5](https://www.w3.org/html/)
-- [CSS3](https://www.w3.org/Style/CSS/Overview.html)
+- [HTML](https://www.w3.org/html/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.html)
 
 Grid - Flexbox - Media Queries
 
